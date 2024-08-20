@@ -20,7 +20,6 @@ zip=https://gitlab.aiursoft.cn/aiursoft/anduinos-rime/-/archive/master/anduinos-
 wget $zip -O anduinos-rime.zip && unzip anduinos-rime.zip && rm anduinos-rime.zip
 rsync -Aavx --update --delete ./anduinos-rime-master/assets/ ~/.config/ibus/rime/
 rm -rf anduinos-rime-master
-ibus-daemon -drx
 ```
 
 Global installation:
@@ -31,4 +30,10 @@ wget $zip -O anduinos-rime.zip && unzip anduinos-rime.zip && rm anduinos-rime.zi
 sudo mkdir -p /etc/skel/.config/ibus/rime/
 sudo rsync -Aavx --update --delete ./anduinos-rime-master/assets/ /etc/skel/.config/ibus/rime/
 rm -rf anduinos-rime-master
+```
+
+Build the library in advance: (Run after installation)
+
+```bash
+./build.sh
 ```
