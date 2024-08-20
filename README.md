@@ -20,6 +20,7 @@ zip=https://gitlab.aiursoft.cn/aiursoft/anduinos-rime/-/archive/master/anduinos-
 wget $zip -O anduinos-rime.zip && unzip anduinos-rime.zip && rm anduinos-rime.zip
 rsync -Aavx --update --delete ./anduinos-rime-master/assets/ ~/.config/ibus/rime/
 rm -rf anduinos-rime-master
+ibus-daemon -drx
 ```
 
 Global installation:
