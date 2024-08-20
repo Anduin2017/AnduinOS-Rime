@@ -10,7 +10,7 @@ Before:
 
 ```bash
 sudo apt install ibus-rime
-sudo mkdir -p ~/.config/ibus/rime/
+mkdir -p ~/.config/ibus/rime/
 ```
 
 Local installation:
