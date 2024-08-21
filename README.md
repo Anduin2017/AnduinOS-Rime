@@ -20,6 +20,9 @@ zip=https://gitlab.aiursoft.cn/anduin/anduinos-rime/-/archive/master/anduinos-ri
 wget $zip -O anduinos-rime.zip && unzip anduinos-rime.zip && rm anduinos-rime.zip
 rsync -Aavx --update --delete ./anduinos-rime-master/assets/ ~/.config/ibus/rime/
 rm -rf anduinos-rime-master
+ibus restart
+ibus engine rime
+
 ```
 
 Global installation:
@@ -30,5 +33,7 @@ wget $zip -O anduinos-rime.zip && unzip anduinos-rime.zip && rm anduinos-rime.zi
 sudo mkdir -p /etc/skel/.config/ibus/rime/
 sudo rsync -Aavx --update --delete ./anduinos-rime-master/assets/ /etc/skel/.config/ibus/rime/
 rm -rf anduinos-rime-master
+ibus restart
+ibus engine rime
 ```
 
