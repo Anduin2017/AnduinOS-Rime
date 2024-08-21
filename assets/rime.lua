@@ -44,11 +44,6 @@ pin_cand_filter = require("pin_cand_filter")
 -- 长词优先（全拼）
 long_word_filter = require("long_word_filter")
 
--- 默认未启用：
-
--- 中英混输词条自动空格
--- 在 engine/filters 增加 - lua_filter@cn_en_spacer
-cn_en_spacer = require("cn_en_spacer")
 
 -- 英文词条上屏自动添加空格
 -- 在 engine/filters 的倒数第二个位置，增加 - lua_filter@en_spacer
