@@ -22,7 +22,7 @@ rsync -Aavx --update --delete ./anduinos-rime-master/assets/ ~/.config/ibus/rime
 rm -rf anduinos-rime-master
 ibus restart
 ibus engine rime
-
+echo "Please logout and login to start AnduinOS-Rime!"
 ```
 
 Global installation:
