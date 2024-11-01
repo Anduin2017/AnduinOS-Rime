@@ -501,8 +501,6 @@ OK了吗	oklema
 公网IP	gswhip
 Web开发	Webklfa
 Web开发	webklfa
-圈X	qpX
-圈X	qpx
 Switch版	Switchbj
 Switch版	switchbj
 Switch版本	Switchbjbf
@@ -616,8 +614,6 @@ S级	Sji
 S级	sji
 拍CT	plCT
 拍CT	plct
-CT检查	CTjwea
-CT检查	ctjwea
 PVC管	PVCgp
 PVC管	pvcgp
 DoS攻击	DoSgsji

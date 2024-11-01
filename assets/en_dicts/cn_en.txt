@@ -501,8 +501,8 @@ OK了吗	oklema
 公网IP	gongwangip
 Web开发	Webkaifa
 Web开发	webkaifa
-圈X	quanX
-圈X	quanx
+
+
 Switch版	Switchban
 Switch版	switchban
 Switch版本	Switchbanben
@@ -616,8 +616,6 @@ S级	Sji
 S级	sji
 拍CT	paiCT
 拍CT	paict
-CT检查	CTjiancha
-CT检查	ctjiancha
 PVC管	PVCguan
 PVC管	pvcguan
 DoS攻击	DoSgongji
